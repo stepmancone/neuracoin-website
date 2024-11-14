@@ -1,245 +1,104 @@
-neuracoin-website/
-
-├── assets/
-
-│   ├── css/
-
-│   │   └── style.css
-/* Reset */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-/* Body */
-body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    color: #333;
-    background-color: #f4f4f4;
-}
-
-/* Navbar */
-.navbar {
-    background-color: #333;
-    padding: 10px 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.navbar .logo img {
-    width: 150px;
-}
-
-.navbar .nav-links {
-    list-style-type: none;
-}
-
-.navbar .nav-links li {
-    display: inline;
-    margin-left: 20px;
-}
-
-.navbar .nav-links a {
-    color: white;
-    text-decoration: none;
-    font-size: 18px;
-}
-
-/* Hero Section */
-.hero {
-    background-image: url('assets/images/hero.jpg');
-    background-size: cover;
-    background-position: center;
-    height: 400px;
-    color: white;
-    text-align: center;
-    padding: 100px 20px;
-}
-
-.hero h1 {
-    font-size: 48px;
-}
-
-.cta-button {
-    background-color: #4CAF50;
-    color: white;
-    padding: 10px 20px;
-    text-decoration: none;
-    border-radius: 5px;
-    font-size: 18px;
-}
-
-/* Sections */
-section {
-    padding: 40px 20px;
-}
-
-h2 {
-    font-size: 36px;
-    color: #333;
-    margin-bottom: 20px;
-}
-
-ul {
-    list-style-type: none;
-    margin-top: 20px;
-}
-
-ul li {
-    font-size: 18px;
-    margin-bottom: 10px;
-}
-
-/* Contact Form */
-form {
-    display: flex;
-    flex-direction: column;
-}
-
-form input, form textarea {
-    margin-bottom: 10px;
-    padding: 10px;
-    font-size: 16px;
-}
-
-form button {
-    background-color: #4CAF50;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    cursor: pointer;
-}
-
-/* Footer */
-footer {
-    background-color: #333;
-    color: white;
-    text-align: center;
-    padding: 20px;
-}
-
-footer .social-links a {
-    color: white;
-    margin: 0 10px;
-    text-decoration: none;
-}
-
-│   ├── images/
-│   │   ├── logo.png
-│   │   └── hero.jpg
-
-│   └── js/
-│       └── script.js
-// Esempio di validazione del modulo (in futuro puoi aggiungere altro codice JS)
-document.getElementById("contact-form").addEventListener("submit", function(e) {
-    alert("Messaggio inviato con successo!");
-});
-
-├── index.html
+<!-- index.html -->
 <!DOCTYPE html>
-<html lang="it">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="NeuraCoin - La criptovaluta alimentata dall'intelligenza artificiale">
-    <title>NeuraCoin</title>
-    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Neura Coin - Home</title>
+    <style>
+        /* Stili per styles.css */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background: #333;
+            color: #fff;
+            padding: 1rem;
+            text-align: center;
+        }
+
+        nav a {
+            color: #fff;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+
+        main {
+            padding: 2rem;
+        }
+
+        section {
+            margin-bottom: 2rem;
+            background: #fff;
+            padding: 1rem;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1rem;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
 </head>
 <body>
-
-    <!-- Navbar -->
     <header>
-        <nav class="navbar">
-            <div class="logo">
-                <img src="assets/images/logo.png" alt="NeuraCoin">
-            </div>
-            <ul class="nav-links">
-                <li><a href="#about">Chi Siamo</a></li>
-                <li><a href="#tokenomics">Tokenomics</a></li>
-                <li><a href="#roadmap">Roadmap</a></li>
-                <li><a href="#contact">Contatti</a></li>
-            </ul>
+        <h1>Neura Coin</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
         </nav>
     </header>
-
-    <!-- Hero Section -->
-    <section id="hero" class="hero">
-        <div class="hero-content">
-            <h1>Benvenuto in NeuraCoin</h1>
-            <p>La criptovaluta alimentata dall'intelligenza artificiale e dalla blockchain.</p>
-            <a href="#tokenomics" class="cta-button">Scopri di più</a>
-        </div>
-    </section>
-
-    <!-- About Section -->
-    <section id="about" class="about">
-        <div class="container">
-            <h2>Cosa è NeuraCoin?</h2>
-            <p>NeuraCoin è una criptovaluta innovativa che si propone di trasformare il settore dell'intelligenza artificiale e delle tecnologie decentralizzate. Grazie alla blockchain, premiamo gli utenti che contribuiscono allo sviluppo di intelligenza artificiale e machine learning.</p>
-        </div>
-    </section>
-
-    <!-- Tokenomics Section -->
-    <section id="tokenomics" class="tokenomics">
-        <div class="container">
-            <h2>Tokenomics</h2>
-            <p>NeuraCoin (NRC) ha un'offerta limitata, con una distribuzione chiara per garantire il successo e la crescita del progetto. Ecco come sono distribuiti i token:</p>
-            <ul>
-                <li><strong>40%</strong> - Comunità e ICO</li>
-                <li><strong>30%</strong> - Team e sviluppo</li>
-                <li><strong>20%</strong> - Riserva</li>
-                <li><strong>10%</strong> - Partnership e marketing</li>
-            </ul>
-        </div>
-    </section>
-
-    <!-- Roadmap Section -->
-    <section id="roadmap" class="roadmap">
-        <div class="container">
+    <main>
+        <section>
+            <h2>Welcome to Neura Coin</h2>
+            <p>Your gateway to decentralized finance and innovation.</p>
+        </section>
+        <section>
+            <h2>Project Launch</h2>
+            <p>Neura Coin is set to launch in Q1 2025. Our vision is to create a seamless digital currency that integrates with both traditional and modern financial systems.</p>
+        </section>
+        <section>
+            <h2>Total Supply</h2>
+            <p>Neura Coin will have a fixed supply of 1 billion coins, ensuring scarcity and value over time.</p>
+        </section>
+        <section>
             <h2>Roadmap</h2>
             <ul>
-                <li><strong>Q1 2024</strong> - Lancio di NeuraCoin e distribuzione iniziale</li>
-                <li><strong>Q2 2024</strong> - Sviluppo dell'ecosistema di AI</li>
-                <li><strong>Q3 2024</strong> - Listing su principali exchange</li>
-                <li><strong>Q4 2024</strong> - Partnership strategiche e scaling del progetto</li>
+                <li><strong>Q1 2025</strong>: Official launch and initial coin offering (ICO).</li>
+                <li><strong>Q2 2025</strong>: Partnerships with major financial platforms.</li>
+                <li><strong>Q3 2025</strong>: Integration with popular wallets and exchanges.</li>
+                <li><strong>Q4 2025</strong>: Development of DeFi tools and staking features.</li>
             </ul>
-        </div>
-    </section>
-
-    <!-- Contact Section -->
-    <section id="contact" class="contact">
-        <div class="container">
-            <h2>Contatti</h2>
-            <p>Per maggiori informazioni, non esitare a contattarci.</p>
-            <form action="#" method="post" id="contact-form">
-                <label for="name">Nome:</label>
-                <input type="text" id="name" name="name" required>
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
-                <label for="message">Messaggio:</label>
-                <textarea id="message" name="message" required></textarea>
-                <button type="submit" class="cta-button">Invia Messaggio</button>
-            </form>
-        </div>
-    </section>
-
-    <!-- Footer -->
+        </section>
+        <section>
+            <h2>Project Vision</h2>
+            <p>Neura Coin aims to revolutionize the way people interact with digital assets, making cryptocurrency more accessible, secure, and efficient for everyone. Our goal is to bridge the gap between traditional finance and the decentralized world by providing fast transactions, low fees, and user-friendly platforms.</p>
+        </section>
+        <section>
+            <h2>Why Choose Neura Coin?</h2>
+            <p>With a team of industry experts and a clear roadmap, Neura Coin is positioned to be a leader in the next wave of cryptocurrency. Join us as we shape the future of finance and innovation.</p>
+        </section>
+    </main>
     <footer>
-        <div class="container">
-            <p>&copy; 2024 NeuraCoin. All rights reserved.</p>
-            <div class="social-links">
-                <a href="https://twitter.com/neuracoin" target="_blank">Twitter</a>
-                <a href="https://discord.com/neuracoin" target="_blank">Discord</a>
-                <a href="https://telegram.me/neuracoin" target="_blank">Telegram</a>
-            </div>
-        </div>
+        <p>&copy; 2024 Neura Coin. All rights reserved.</p>
     </footer>
-
-    <script src="assets/js/script.js"></script>
+    <script>
+        // Contenuto di main.js
+        document.addEventListener('DOMContentLoaded', () => {
+            console.log('Neura Coin website loaded.');
+        });
+    </script>
 </body>
 </html>
-
-└── README.md
