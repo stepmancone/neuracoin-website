@@ -1,3 +1,4 @@
+NEURACOIN
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -5,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Neura Coin - Home</title>
     <style>
-        /* Stili per styles.css */
+        /* Stili per il sito */
         body {
             font-family: Arial, sans-serif;
             margin: 0;
@@ -59,47 +60,35 @@
             <a href="contact.html">Contact</a>
         </nav>
     </header>
-    <!-- Contenuto del body continua... -->
-</body>
-</html>
-
-    <header>
-        <h1>Neura Coin</h1>
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="about.html">About</a>
-            <a href="contact.html">Contact</a>
-        </nav>
-    </header>
     <main>
         <section>
             <h2>Welcome to Neura Coin</h2>
-            <p>Your gateway to decentralized finance and innovation.</p>
+            <p>Neura Coin is your gateway to the future, where artificial intelligence, finance, and ecological sustainability converge.</p>
         </section>
         <section>
             <h2>Project Launch</h2>
-            <p>Neura Coin is set to launch in Q1 2025. Our vision is to create a seamless digital currency that integrates with both traditional and modern financial systems.</p>
+            <p>Neura Coin is set to launch in Q1 2025. We aim to create a currency that seamlessly integrates innovative technology and sustainable practices for a better tomorrow.</p>
         </section>
         <section>
             <h2>Total Supply</h2>
-            <p>Neura Coin will have a fixed supply of 1 billion coins, ensuring scarcity and value over time.</p>
+            <p>Neura Coin will have a total supply of 10 billion tokens, ensuring controlled distribution and long-term value.</p>
         </section>
         <section>
             <h2>Roadmap</h2>
             <ul>
                 <li><strong>Q1 2025</strong>: Official launch and initial coin offering (ICO).</li>
-                <li><strong>Q2 2025</strong>: Partnerships with major financial platforms.</li>
-                <li><strong>Q3 2025</strong>: Integration with popular wallets and exchanges.</li>
-                <li><strong>Q4 2025</strong>: Development of DeFi tools and staking features.</li>
+                <li><strong>Q2 2025</strong>: Establish partnerships with eco-friendly and AI-driven financial platforms.</li>
+                <li><strong>Q3 2025</strong>: Expand ecosystem to include smart contracts for environmental impact tracking.</li>
+                <li><strong>Q4 2025</strong>: Implement AI-driven financial analysis tools and community engagement for sustainable projects.</li>
             </ul>
         </section>
         <section>
-            <h2>Project Vision</h2>
-            <p>Neura Coin aims to revolutionize the way people interact with digital assets, making cryptocurrency more accessible, secure, and efficient for everyone. Our goal is to bridge the gap between traditional finance and the decentralized world by providing fast transactions, low fees, and user-friendly platforms.</p>
+            <h2>Our Vision</h2>
+            <p>Neura Coin aims to bridge the gap between artificial intelligence, finance, and ecology. Our mission is to foster a sustainable economy powered by advanced AI technologies that help reduce environmental impact while promoting innovative financial solutions.</p>
         </section>
         <section>
-            <h2>Why Choose Neura Coin?</h2>
-            <p>With a team of industry experts and a clear roadmap, Neura Coin is positioned to be a leader in the next wave of cryptocurrency. Join us as we shape the future of finance and innovation.</p>
+            <h2>Why Invest in Neura Coin?</h2>
+            <p>Join us as we lead the future of finance by leveraging AI for smarter investments and sustainable projects. Our strong roadmap and dedicated team position Neura Coin as a top choice for forward-thinking investors.</p>
         </section>
     </main>
     <footer>
@@ -113,3 +102,4 @@
     </script>
 </body>
 </html>
+
