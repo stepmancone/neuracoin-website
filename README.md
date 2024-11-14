@@ -1,6 +1,9 @@
 neuracoin-website/
+
 ├── assets/
+
 │   ├── css/
+
 │   │   └── style.css
 /* Reset */
 * {
@@ -127,6 +130,7 @@ footer .social-links a {
 │   ├── images/
 │   │   ├── logo.png
 │   │   └── hero.jpg
+
 │   └── js/
 │       └── script.js
 // Esempio di validazione del modulo (in futuro puoi aggiungere altro codice JS)
