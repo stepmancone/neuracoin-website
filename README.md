@@ -1,4 +1,3 @@
-<!-- index.html -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -52,6 +51,18 @@
     </style>
 </head>
 <body>
+    <header>
+        <h1>Neura Coin</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+    <!-- Contenuto del body continua... -->
+</body>
+</html>
+
     <header>
         <h1>Neura Coin</h1>
         <nav>
